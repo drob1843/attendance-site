@@ -1,0 +1,173 @@
+@import url('https://fonts.googleapis.com/css2?family=Poetsen+One&display=swap');
+
+body {
+  background: #F2F2F2;
+  padding: 0;
+  margin: 0;
+}
+
+#price {
+  text-align: center;
+}
+
+.plan {
+  display: inline-block;
+  margin: 10px 1%;
+  font-family: 'Poetsen One', Arial, sans-serif;
+}
+
+.plan-inner {
+  background: #fff;
+  margin: 0 auto;
+  min-width: 224px;
+  max-width: 80%;
+  position: relative;
+}
+
+.entry-title {
+  height: 140px;
+  position: relative;
+  text-align: center;
+  color: #fff;
+  margin-bottom: 30px;
+}
+
+.entry-title > h3 {
+  font-size: 20px;
+  padding: 5px 0;
+  text-transform: uppercase;
+  font-weight: 700;
+  margin: 0;
+}
+
+.entry-title .price {
+  position: absolute;
+  bottom: -25px;
+  height: 95px;
+  width: 95px;
+  margin: 0 auto;
+  left: 0;
+  right: 0;
+  overflow: hidden;
+  border-radius: 50px;
+  border: 5px solid #fff;
+  line-height: 80px;
+  font-size: 28px;
+  font-weight: 700;
+  text-align: center; /* Ensure text is centered */
+}
+
+/* Apply smaller font size to first two price circles */
+.plan-0 .price, .plan-1 .price {
+  font-size: 22px; /* Reduced by 20% from 28px */
+  line-height: 80px;
+}
+
+.price span {
+  position: absolute;
+  font-size: 11px; /* Increased by 20% from 9px */
+  bottom: -10px;
+  left: 0; /* Remove left positioning */
+  right: 0; /* Center the text */
+  text-align: center; /* Center the text */
+  width: 100%; /* Ensure full width for centering */
+  font-weight: 400;
+}
+
+.entry-content {
+  color: #323232;
+}
+
+.entry-content ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  text-align: center;
+}
+
+.entry-content li {
+  border-bottom: 1px solid #E5E5E5;
+  padding: 10px 0;
+}
+
+.entry-content li:last-child {
+  border: none;
+}
+
+.btn {
+  padding: 3em 0;
+  text-align: center;
+}
+
+.btn a {
+  background: #323232;
+  padding: 10px 30px;
+  color: #fff;
+  text-transform: uppercase;
+  font-weight: 700;
+  text-decoration: none;
+  font-family: 'Poetsen One', Arial, sans-serif;
+}
+
+.hot {
+  position: absolute;
+  top: -7px;
+  background: #F80;
+  color: #fff;
+  text-transform: uppercase;
+  z-index: 2;
+  padding: 2px 5px;
+  font-size: 9px;
+  border-radius: 2px;
+  right: 10px;
+  font-weight: 700;
+}
+
+/* Reverse rainbow colors for each plan */
+.plan-0 .entry-title {
+  background: #ADD8E6; /* Pastel Blue */
+}
+
+.plan-0 .entry-title > h3, .plan-0 .price {
+  background: #87CEEB; /* Light Blue */
+}
+
+.plan-1 .entry-title {
+  background: #FFA07A; /* Warm Light Coral */
+}
+
+.plan-1 .entry-title > h3, .plan-1 .price {
+  background: #FF7F50; /* Darker Coral */
+}
+
+.plan-2 .entry-title {
+  background: #FFD700; /* Warm Yellow */
+}
+
+.plan-2 .entry-title > h3, .plan-2 .price {
+  background: #E1AC00; /* Darker Warm Yellow */
+}
+
+.plan-3 .entry-title {
+  background: #FFB347; /* Warm Orange */
+}
+
+.plan-3 .entry-title > h3, .plan-3 .price {
+  background: #F39C12; /* Darker Warm Orange */
+}
+
+.plan-4 .entry-title {
+  background: #FF6F61; /* Warm Red */
+}
+
+.plan-4 .entry-title > h3, .plan-4 .price {
+  background: #E95C52; /* Darker Warm Red */
+}
+
+.plan-5 .entry-title {
+  background: #D87093; /* Warm Pink */
+}
+
+.plan-5 .entry-title > h3, .plan-5 .price {
+  background: #C71585; /* Darker Warm Pink */
+}
